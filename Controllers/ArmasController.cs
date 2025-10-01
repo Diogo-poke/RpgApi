@@ -2,14 +2,13 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using Api.Models;
 using RpgApi.Data;
 using RpgApi.Models;
 using RpgApi.Models.Enuns;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
-namespace Api.Controllers
+namespace RpgApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
