@@ -28,5 +28,17 @@ namespace RpgApi.Models
 
         [NotMapped]
         public string Token { get; set; } = string.Empty;
+<<<<<<< HEAD
     }
+=======
+
+                 
+
+
+    }
+    
+
+
+
+>>>>>>> 162d5722479230e1effdebfa2dd54f8a27124703
 }
