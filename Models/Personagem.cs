@@ -21,18 +21,18 @@ namespace RpgApi.Models
         public int Inteligencia { get; set; }
 
         public ClasseEnum Classe { get; set; }
-<<<<<<< HEAD
+
         public byte[]? FotoPersonagem { get; set; }
         public int? UsuarioId { get; set; }
         public Usuario? Usuario { get; set; }
-=======
 
-        public byte[]? FotoPersonagem {get ; set;}
 
-        public int? UsuarioId {get; set;}
+        
 
-        public Usuario? Usuario {get; set;}
->>>>>>> 162d5722479230e1effdebfa2dd54f8a27124703
+        
+
+        
+
     }
     
 

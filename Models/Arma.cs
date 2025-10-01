@@ -12,5 +12,7 @@ namespace Api.Models
         public string Nome { get; set; } 
 
         public int Dano { get; set; }
+
+        public Personagem? Personagem
     }
 }

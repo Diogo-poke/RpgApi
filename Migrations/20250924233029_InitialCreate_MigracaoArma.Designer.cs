@@ -193,7 +193,7 @@ namespace RpgApi.Migrations
                             PontosVida = 100
                         });
                 });
-#pragma warning restore 612, 618
+
         }
     }
 }

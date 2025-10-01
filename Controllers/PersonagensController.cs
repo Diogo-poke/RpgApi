@@ -82,7 +82,7 @@ namespace RpgApi.Controllers
 
       }
 
-      /*[HttpPut]
+      [HttpPut]
         public async Task<IActionResult> Update(Personagem novoPersonagem)
         {
               try
@@ -124,7 +124,7 @@ namespace RpgApi.Controllers
                 return BadRequest(ex.Message);
                 
             }
-         }*/
+         }
 
 
     }
