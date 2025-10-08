@@ -2,7 +2,7 @@ using System;
 using System.Linq;
 using System.Threading.Tasks;
 using RpgApi.Models.Enuns;
-
+using System.Text.Json.Serialization;
 
 namespace RpgApi.Models
 {
@@ -26,7 +26,9 @@ namespace RpgApi.Models
 
         public int? UsuarioId { get; set; }
 
-        public Usuario? Usuario { get; set; }
+         
+
+      public Usuario? Usuario { get; set; }
 
         [JsonIgnore]
 
@@ -37,6 +39,8 @@ namespace RpgApi.Models
         public int  vitorias {get; set; }
 
         public int  Derrotas {get; set; }
+
+
 
     }
     
